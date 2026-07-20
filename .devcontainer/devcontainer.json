@@ -5,6 +5,7 @@
     "target": "linux",
     "args": {
       "BASE_REF": "ubuntu:22.04",
+      "APT_EXTRA": "gcc-12 g++-12",
       "CC_PIN": "gcc-12",
       "CXX_PIN": "g++-12",
       "PIP_CMAKE": "cmake"
