@@ -2,7 +2,7 @@
   "build": {
     "context": "..",
     "dockerfile": "../deploy/docker/Dockerfile",
-    "target": "linux",
+    "target": "android",
     "args": {
       "BASE_REF": "ubuntu:22.04",
       "APT_EXTRA": "gcc-12 g++-12",
