@@ -6,7 +6,8 @@
     "args": {
       "BASE_REF": "ubuntu:22.04",
       "CC_PIN": "gcc-12",
-      "CXX_PIN": "g++-12"
+      "CXX_PIN": "g++-12",
+      "PIP_CMAKE": "cmake"
     }
   },
   "customizations": {
