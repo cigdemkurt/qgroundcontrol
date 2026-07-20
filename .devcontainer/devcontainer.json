@@ -2,7 +2,12 @@
   "build": {
     "context": "..",
     "dockerfile": "../deploy/docker/Dockerfile",
-    "target": "linux"
+    "target": "linux",
+    "args": {
+      "BASE_REF": "ubuntu:22.04",
+      "CC_PIN": "gcc-12",
+      "CXX_PIN": "g++-12"
+    }
   },
   "customizations": {
     "vscode": {
