@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/Custom/res">
+        <file alias="QGCLogoFull.svg">res/Images/QGCLogoFull.svg</file>
+    </qresource>
+</RCC>
