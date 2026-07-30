@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Custom/res">
+        <file alias="QGCLogoFull">res/Images/QGCLogoFull.svg</file>
+        <file alias="H12LogoPng">android/res/drawable-xxxhdpi/icon.png</file>
+    </qresource>
+    <qresource prefix="/custom/qml">
+        <file alias="H12LogoIndicator.qml">res/qml/H12LogoIndicator.qml</file>
+    </qresource>
+</RCC>
